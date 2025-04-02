@@ -29,16 +29,6 @@ public void cancelar(Reserva reserva, Hospede[] hospedes){
   reserva = null;
   System.gc();
 }
-
-  //public boolean checkIn(String dataEntrada, Quarto quarto) {
-  //  if(quarto) {
-  //    System.out.println("Quarto já possui uma reserva");
-  //    return false;
-  //  } else {
-  //    this.quarto = quarto;
-  //    this.dataEntrada = dataEntrada;
-  //    return true;
-  //  }
 }
 
 
